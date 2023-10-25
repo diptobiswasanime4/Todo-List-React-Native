@@ -55,7 +55,7 @@ const App = () => {
 				<TouchableOpacity 
 					onPress={() => handleDeleteTask(index)}> 
 					<Text 
-						style={styles.deleteButton}>Delete</Text> 
+						style={styles.deleteButton}>Remove</Text> 
 				</TouchableOpacity> 
 			</View> 
 		</View> 
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
 		fontSize: 30, 
 		fontWeight: "bold", 
 		marginBottom: 7, 
-		color: "green", 
+		color: "#0000CD", 
 	}, 
 	input: { 
 		borderWidth: 3, 
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
 		fontSize: 18, 
 	}, 
 	addButton: { 
-		backgroundColor: "green", 
+		backgroundColor: "#0000CD", 
 		padding: 10, 
 		borderRadius: 5, 
 		marginBottom: 10, 
